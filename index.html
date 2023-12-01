@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Copyright (c) 2023 Pierleeb
+         SPDX-License-Identifier: MIT -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://vjs.zencdn.net/7.14.3/video-js.css" rel="stylesheet">
+    <script src="https://vjs.zencdn.net/7.14.3/video.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>M3U8 Player</title>
+</head>
+<body>
+
+    <div class="video-container">
+        <video id="m3u8Player" class="video-js vjs-default-skin" controls width="640" height="360">
+            <source src="http://uniplay.link/live/977202981/D529n9738n/232244.m3u8" type="application/x-mpegURL">
+        </video>
+    </div>
+
+    <div class="controls-container">
+        <label for="m3u8Input">Insira o link m3u8:</label>
+        <div class="input-group">
+            <input type="text" id="m3u8Input" placeholder="Cole o link aqui">
+            <button onclick="changeVideo()">Alterar Vídeo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
