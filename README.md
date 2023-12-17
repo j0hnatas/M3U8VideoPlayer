@@ -1,19 +1,19 @@
 # M3U8 Video Player
 
-Um reprodutor de vídeo que suporta links M3U8. Este projeto utiliza HTML, CSS e JavaScript, incorporando a biblioteca [video.js](https://videojs.com/) para uma experiência de visualização fluida. Os usuários podem facilmente inserir novos links M3U8 e desfrutar de uma reprodução contínua de vídeos ao vivo ou sob demanda.
+A video player that supports M3U8 links. This project uses HTML, CSS, and JavaScript, incorporating the [video.js](https://videojs.com/) library for a seamless viewing experience. Users can easily input new M3U8 links and enjoy continuous playback of live or on-demand videos.
 
-## Como Usar
+## How to Use
 
-1. Clone o repositório: `git clone https://github.com/pierleeb/M3U8VideoPlayer.git`
-2. Abra o arquivo `index.html` em um navegador moderno.
-3. Insira o link M3U8 desejado na caixa de entrada.
-4. Clique no botão "Alterar Vídeo".
+1. Clone the repository: `git clone https://github.com/pierleeb/M3U8VideoPlayer.git`
+2. Open the `index.html` file in a modern browser.
+3. Enter the desired M3U8 link in the input box.
+4. Click the "Change Video" button.
 
-## Licença
+## License
 
-Este projeto é licenciado sob a [Licença MIT](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Autor:** Pierleeb  
-**Contato:** [E-mail](mailto:contato@pierleeb.com) | [GitHub](https://github.com/pierleeb)
+**Author:** Pierleeb  
+**Contact:** [Email](mailto:contato@pierleeb.com) | [GitHub](https://github.com/pierleeb)
